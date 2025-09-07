@@ -1,0 +1,224 @@
+
+    *** style for entire webpage ***
+body {
+    background-color: white;
+    background-size: cover;
+
+}
+     *** styling introduction heading ***
+.main-heading {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+  *** styling navigation contents ***
+nav {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    padding: 5px;
+}
+.nav-bar {
+    display: flex;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section-name {
+    color: white;
+    padding: 3px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.section-name:focus {
+    outline: 3px solid #c46e5e;
+}
+         *** styling profile picture ***
+.image {
+    border-radius: 9px;
+    width: 40%;
+    height: 40%;
+    margin-left: 28%;
+    margin-bottom: 10px;
+}
+        *** styling Aboutsection ***
+
+.about-section {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    background-color: rgb(247, 226, 187);
+    padding: 10px;
+    border-radius: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+        *** styling skillsection ***
+.skill-section {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    background-color: rgb(247, 226, 187);
+    padding: 10px;
+    border-radius: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+        *** styling hobbiessection ***
+
+.hobbies-section {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    background-color: rgb(247, 226, 187);
+    padding: 10px;
+    border-radius: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+            *** styling contactsection ***
+.contact-section {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    background-color: rgb(247, 226, 187);
+    padding: 10px;
+    border-radius: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+      *** styling lists of skills and hobbies ***
+.listed-contents {
+    font-size: 20px;
+    list-style-type: square;
+}
+        *** styling horizontal line ***
+
+hr {
+    color: grey;
+}
+
+            *** styling section heading ***
+h2 {
+    color: rgb(139, 136, 136);
+}
+
+        *** styling Aboutsection ***
+.about {
+    font-size: 20px;
+}
+        *** styling rightssection ***
+.rights-section {
+    background-color: rgb(6, 6, 27);
+    font: size 22px;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+        *** styling sections ***
+.sections {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+}
+        *** styling form ***
+
+.label-style {
+    font-weight: bold;
+    font-family: "Caveat";
+}
+
+.submit-btn {
+    background-color: rgb(47, 47, 172);
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 8px;
+}
+
+.submit-btn:hover {
+    background-color: grey;
+}
+
+.form {
+    display: block;
+    padding: 20px;
+    background-color: rgb(150, 202, 172);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+i {
+    padding-left: 3px;
+}
+
+h3 {
+    color: rgb(196, 83, 83);
+}
+
+                   
+
+@media(max-width:600px) {
+    .nav-bar {
+    padding-left:0px;
+    }
+    li{
+        padding-left:3px;
+    }
+
+    .section-name {
+        padding: 3px;
+    }
+
+    .sections {
+        flex-direction: column;
+    }
+    .form{
+        width:70%;
+    }
+
+}
+
+                   
+@media(min-width:768px) {
+    .sections {
+        justify-content: center;
+    }
+     .form{
+        width:40%;
+    }
+      li{
+        padding-left:10px;
+    }
+
+}
+
+@media(min-width:1024px) {
+
+    .section-name {
+        padding: 5px;
+    }
+     li{
+        padding-left:10px;
+    }
+    .sections {
+        justify-content: center;
+    }
+    .form{
+        width:30%;
+    }
+}
